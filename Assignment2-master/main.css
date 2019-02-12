@@ -1,0 +1,12 @@
+body{ background-color: #CCCCFF;}
+h1{
+	color: pink;
+	text-shadow:2px 2px #ff0000;
+}
+.image{
+	height: 250px;
+	Width: 300px;
+}
+#orderForm{
+	visibility: hidden;
+}

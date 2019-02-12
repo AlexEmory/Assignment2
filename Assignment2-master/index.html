@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Assignment 2</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <script src="main.js"></script>
+</head>
+
+<body>
+	<h1> Alex's Disney Pin Store!</h1>
+	<img class="image" src="whoosh_pin.jpeg">
+	<p><h3> Mickey and Minnie Mouse Mad Tea Party Pin</h3>
+	Enamel pin with glitter details featuring Mickey and Minnie spin with delight.</p>
+	<button onclick="buyNow(event)"> Buy Now! </button>
+	<br><br>
+	<img class = "image" src="mickey.jpeg">
+	<p><h3> Hello My Name is Mickey Pin</h3>
+	Enamel greeting pin with pewter finish </p>
+	<button onclick="buyNow(event)"> Buy Now! </button>
+	<br><br>
+	
+	</body> 
+  <form id="orderForm">
+	Quantity: <input type="text" id= "quantity" value=""><br>
+	Name: <input type="text" id= "name" value=""><br>
+	Address: <input type = "text" id= "address" value =""><br>
+	Contact Number: <input type = "text" id= "phonenumber" value = ""><br>
+	Credit Card Number: <input type = "text" id= "creditcard" value = ""><br>
+    <br><button onclick="placeOrder(event)">Submit</button>
+ </form>
+
+
+</html>
